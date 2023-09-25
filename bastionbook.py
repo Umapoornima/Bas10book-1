@@ -42,7 +42,7 @@ def register():
             print((inst_name, user, ipaddr, pvt_key))
 
             try:
-                url = 'https://mygq8yd0jg.execute-api.us-west-2.amazonaws.com/test/dynamodbmanager'
+                url = 'https://8bue09wn9h.execute-api.us-west-2.amazonaws.com/test/dynamodbmanager'
                 new_entry = {
                     'operation': str(operation),
                     'payload': {
